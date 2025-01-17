@@ -1,8 +1,13 @@
 const express = require('express')
 const port = 8080;
 const generatePdf = require('./routes/pdfRoute')
+const cors = require('cors')
+
+
 
 const app = express()
+
+app.use(cors());
 
 app.use(express.json())
 

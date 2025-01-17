@@ -13,6 +13,7 @@
   "license": "ISC",
   "description": "This service handle pdf generation",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "playwright": "^1.49.1"
   },
