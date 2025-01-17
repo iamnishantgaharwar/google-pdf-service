@@ -1,0 +1,23 @@
+{
+  "name": "google-pdf-service",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "postinstall": "npx playwright install"
+  },
+  "keywords": [
+    "pdf"
+  ],
+  "author": "Nishant Gaharwar",
+  "license": "ISC",
+  "description": "This service handle pdf generation",
+  "dependencies": {
+    "express": "^4.21.2",
+    "playwright": "^1.49.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7"
+  }
+}
